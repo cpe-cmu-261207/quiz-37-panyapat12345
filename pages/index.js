@@ -16,7 +16,7 @@ export default function Home() {
       >
         {/* PostOwner Example*/}
         <PostOwner
-          img={"/profileImages/img.jpg"}
+          img={"/profileImages/img.JPG"}
           name={"Panyapat Wongdee 640610650"}
           status={"Quiz ง่ายจังเลย ของ่ายๆแบบนี้ต่อไปครับ😂 #261207"}
           like={261}
