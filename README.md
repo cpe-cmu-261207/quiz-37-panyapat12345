@@ -19,4 +19,4 @@ Deploy ไฟล์ที่ build โดยใช้บริการ Static w
 
 ดูวิธีการใช้ **Surge** ใน MS TEAM Channel General
 
-(Quiz3_panyapat_wongdee_640610650.surge.sh)
+(http://quiz3_panyapat_wongdee_640610650.surge.sh/)
