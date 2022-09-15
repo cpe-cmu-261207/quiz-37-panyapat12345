@@ -31,12 +31,13 @@ export default function Comment(props) {
       </div>
 
       {/*render Reply here... */}
-      {props.reply.map((x) => (
+      {props.reply.map((x, i) => (
         <Reply
           img={x.userImagePath}
           name={x.username}
           status={x.replyText}
           like={x.likeNum}
+          key={i}
         />
       ))}
     </div>

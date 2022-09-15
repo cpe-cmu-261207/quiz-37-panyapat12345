@@ -18,22 +18,21 @@ export default function Home() {
         <PostOwner
           img={"/profileImages/img.jpg"}
           name={"Panyapat Wongdee 640610650"}
-          status={"Quiz ง่ายจังเลยครับ ขอยาก ๆ กว่านี้ได้ไหม #261207"}
+          status={"Quiz ง่ายจังเลย ของ่ายๆแบบนี้ต่อไปครับ😂 #261207"}
           like={261}
         />
 
         {/* Comment Example */}
-        {comments.map((x) => (
+        {comments.map((x, i) => (
           <Comment
             img={x.userImagePath}
             name={x.username}
             status={x.commentText}
             like={x.likeNum}
             reply={x.replies}
+            key={i}
           />
         ))}
-
-        {/* Reply Example */}
       </div>
     </div>
   );
